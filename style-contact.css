@@ -1,0 +1,54 @@
+.contact .row{
+    display: flex;
+    align-items: center;
+    background-color: rgb(109, 99, 87);
+    flex-wrap: wrap;
+    gap: 1rem;
+    box-shadow: 0px 1rem 1rem rgba(27, 25, 24, 0.288);
+    border-radius: .5rem;
+}
+.contact .row .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    height: 48rem;
+    object-fit: cover;
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align:  center;
+}
+.contact .row form h3{
+    /* flex: 1 1 45rem; */
+text-transform: uppercase;
+font-size: 3.5rem;
+color: aliceblue;
+
+}
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.603);
+    border: 2px solid rgb(112, 112, 112);
+    border-radius: 1rem;
+    box-shadow: 0px 1rem 1rem rgba(0, 0, 0, 0.384);
+    
+}
+.contact .row form .inputBox span{
+    color: aliceblue;font-size: 2rem;padding-left: 2rem; 
+}
+.contact .row form .inputBox input{
+    /* color: aliceblue;font-size: 2rem;padding-left: 2rem;  */
+width: 100%;
+padding: 2rem;
+font-size: 1.7rem;
+color: aliceblue;
+text-transform: none;
+background: none;
+}
+.btn_login{
+    width: 20rem;
+    box-shadow: 0px 1rem 1rem rgba(0, 0, 0, 0.404);
+}

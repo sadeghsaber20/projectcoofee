@@ -1,0 +1,30 @@
+.reviw .box_container{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+gap: 1.5rem;
+}
+.reviw .box_container .box{
+    border: 2px solid wheat;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+.reviw .box_container .box p{
+    
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: aliceblue;
+    padding: 2rem  0;
+
+}
+.reviw .box_container .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: aliceblue;
+}
+.reviw .box_container .box .stars{
+
+    /* padding: 1rem 0; */
+    font-size: 1.5rem;
+    /* color: aliceblue; */
+color: bisque;
+}

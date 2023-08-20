@@ -1,0 +1,53 @@
+.footer{
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+}
+.footer .shar{
+    padding: 1rem 0;
+}
+.footer .shar a{
+    /* padding: 1rem 0; */
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;font-size: 2rem;color: aliceblue;
+    border: 1px solid wheat;
+    margin: 3rem;
+    border-radius: 50%;
+    box-shadow: 0px 1rem 1rem rgba(0, 0, 0, 0.24);
+
+}
+.footer .shar a:hover{
+
+    background-color: rgb(109, 110, 17);
+}
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+
+    
+}
+.footer .links a{
+    
+    padding: .7rem 2rem ;
+    color: aliceblue;
+    border: 2px solid wheat;
+    font-size: 2rem;
+    box-shadow: 0px 1rem 1rem rgba(0, 0, 0, 0.24);
+
+}
+.footer .links a:hover{
+    background-color: rgb(115, 116, 100);
+}
+.footer .dredit{
+    font-size: 2rem;
+    color: antiquewhite;
+    font-weight: lighter;
+    padding: 1.5rem;
+
+}
+.footer .dredit span{
+    color: burlywood;
+}

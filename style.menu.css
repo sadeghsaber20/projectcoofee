@@ -1,0 +1,65 @@
+/* ......for sercel image...... */
+.box img{
+    border-radius: 200px;
+    /* margin-left: 4rem; */
+}
+.menu{
+    text-align: center;
+}
+.menu.box_container .box:hover{
+    background-color: white;
+}
+.menu.box_container .box:hover >*{
+    background-color: white;
+}
+    
+:root{
+
+    --main-color:#d3ad7f;
+    --black:#1a1b20;
+    --bg:#202029;
+    --border:5px solid rgb(54, 50, 37);
+     
+
+}
+.menu .box_container{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,10rem));
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.menu.box_container .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+
+}
+.menu .box_container .box .btn{
+    
+    width: 20rem;
+}
+.menu .box_container.box img{
+    height: 10rem;
+    
+}
+.menu .box_container .box h3{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 0;
+
+}
+.menu .box_container .box .price{
+    color: white;
+    font-size: 2.5rem;
+    padding: .5rem 0;
+}
+.menu .box_container .box .price span{
+    /* color: white; */
+    color: rgb(214, 4, 4);
+    font-size: 2.5rem;
+    text-decoration: line-through;
+}
+
